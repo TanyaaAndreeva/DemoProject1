@@ -21,4 +21,4 @@ on:
       - name: Build
         run: dotnet build --no-restore
       - name: Run tests
-        run: dotnet tests --verbosity normal
+        run: dotnet test --verbosity normal
